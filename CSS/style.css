@@ -177,28 +177,29 @@ body{
     color: rgb(154, 147, 147);
 }
 
-.web-develop{
-    margin-top: 6%;
+.services {
+    margin-top: 5%;
     background-color: aliceblue;
 }
 
-.web-develop .title-dev{
-    font-size: 50px;
-    padding-top: 5%;
-    padding-left: 10%;
+.services .services-title{
+    padding-top: 10px;
     display: flex;
-    justify-content: initial;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }
 
-.web-develop .paragrah-web{
+.services .services-paragranh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
     font-size: 25px;
-    padding-top: 4%;
-    padding-left: 7%;
-    padding-right: 50%;
 }
 
-.web-develop img {
-    height: 500px;
-    border-radius: 100% ;
 
+.services-img img{
+    height: 300px;
+    width: auto;
 }
