@@ -23,7 +23,7 @@ body{
     margin-right: 100px;
 }
 
-.header .logo{
+.header .logo a{
     cursor: pointer;
     color: rgb(127, 120, 120);
 }
@@ -68,16 +68,36 @@ body{
     margin-top: 5%;
 }
 
-.cards .card-1 img{
-    height: 200px;
+.cards img{
+    height: 250px;
 }
 
-.cards .card-1 small{
+.cards small{
     color: red;
     font-size: 20px;
     padding-top: 50px;
 }
 
-.cards .card-1 p{
+.cards p{
     font-size: 20px;
 }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img{
+    padding: 5%;
+}
+
+.cards small{
+    padding-left: 5%;
+}
+
+.cards p{
+    padding-left: 5%;
+}
+
+

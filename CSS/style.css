@@ -22,7 +22,7 @@ body{
     margin-right: 100px;
 }
 
-.header .logo{
+.header .logo a{
     cursor: pointer;
         color: rgb(127, 120, 120);
 }
