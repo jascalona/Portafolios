@@ -24,7 +24,7 @@ body{
 
 .header .logo{
     cursor: pointer;
-    color: rgb(127, 120, 120);
+        color: rgb(127, 120, 120);
 }
 
 .header .logo:hover{
@@ -56,7 +56,6 @@ body{
 
 .Encabezado {
     color: rgb(127, 120, 120);
-
     font-size: 50px;
     display: flex;
     margin-top: 50px;
@@ -209,4 +208,3 @@ body{
 .services-img img:hover{
     transform: scale(1.2);
 }
-

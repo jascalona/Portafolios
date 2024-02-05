@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    background-color: #f6f1f12e;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 10%;
+    height: 115px;
+    border: solid 1px #d4caca;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header .logo{
+    cursor: pointer;
+    color: rgb(127, 120, 120);
+}
+
+.header .logo:hover{
+    transform: scale(1.1);
+    color: gray;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 10px;   
+}
+
+.header .nav-links li a{
+    color: rgb(120, 120, 120);
+    font-size: 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links li a:hover{
+    color: gray;
+}
+
+.title-block{
+    color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.cards{
+    margin-top: 5%;
+}
+
+.cards .card-1 img{
+    height: 200px;
+}
+
+.cards .card-1 small{
+    color: red;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.cards .card-1 p{
+    font-size: 20px;
+}
