@@ -179,27 +179,34 @@ body{
 
 .services {
     margin-top: 5%;
-    background-color: aliceblue;
+    background-color: rgb(236, 240, 243);
 }
 
 .services .services-title{
-    padding-top: 10px;
+    color: #897e7e;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
 }
 
-.services .services-paragranh{
+.services-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    font-size: 25px;
+    margin-top: 50px;
 }
 
-
-.services-img img{
+.services-img img {
     height: 300px;
     width: auto;
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom: 8%;
 }
+
+.services-img img:hover{
+    transform: scale(1.2);
+}
+
