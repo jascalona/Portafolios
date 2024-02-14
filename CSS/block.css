@@ -64,48 +64,16 @@ body{
     margin-top: 70px;
 }
 
-.block-primari{
-    
+.linear{
+    border: solid 1px #dad5d5c2;
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
-
-
-
-
-.cards{
-    margin-top: 5%;
+.card{
+    position: relative;
+    width: 400px;
+    height: 270px;
+    margin: 20px;
 }
-
-.cards img{
-    height: 250px;
-}
-
-.cards small{
-    color: red;
-    font-size: 20px;
-    padding-top: 50px;
-}
-
-.cards p{
-    font-size: 20px;
-}
-
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards img{
-    padding: 5%;
-}
-
-.cards small{
-    padding-left: 5%;
-}
-
-.cards p{
-    padding-left: 5%;
-}
-
-
