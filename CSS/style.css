@@ -176,6 +176,9 @@ body{
     color: rgb(154, 147, 147);
 }
 
+
+/*SERVICIOS*/
+
 .services {
     margin-top: 5%;
     background-color: rgb(236, 240, 243);
@@ -197,14 +200,29 @@ body{
     margin-top: 50px;
 }
 
+.services-img .img-1 a{
+    font-size: 20px;
+    color: #897e7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.services-img .img-1 a:hover{
+    transform: scale(1.2);
+}
+
 .services-img img {
     height: 300px;
     width: auto;
     padding: 25px;
     border-radius: 50px;
     margin-bottom: 8%;
+    cursor: pointer;
 }
 
 .services-img img:hover{
     transform: scale(1.2);
 }
+
